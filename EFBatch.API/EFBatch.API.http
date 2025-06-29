@@ -1,0 +1,6 @@
+@EFBatch.API_HostAddress = http://localhost:5193
+
+GET {{EFBatch.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
