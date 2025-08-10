@@ -4,16 +4,32 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>EFBatch</Title>
+    <Authors>MertBaykar</Authors>
+    <Description>EFBatch is an extension for Entity Framework Core that enables efficient batching of SQL commands such as bulk update, delete, and insert-from-query. It integrates seamlessly with EF Core's DbContext and transaction management, allowing you to execute multiple DML operations in a single database roundtrip.</Description>
+    <PackageProjectUrl>https://github.com/Mertbaykar/EFBatch</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Mertbaykar/EFBatch</RepositoryUrl>
+    <PackageReleaseNotes>EFBatch is an extension for Entity Framework Core that enables efficient batching of SQL commands such as bulk update, delete, and insert-from-query. It integrates seamlessly with EF Core's DbContext and transaction management, allowing you to execute multiple DML operations in a single database roundtrip.</PackageReleaseNotes>
+    <PackageTags>entityframeworkcore;efcore;orm;batch;bulk;sql;sqlbatch;single;roundtrip;single-roundtrip;dml</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <AnalysisLevel>latest</AnalysisLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.6">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
   </ItemGroup>
 
 </Project>
