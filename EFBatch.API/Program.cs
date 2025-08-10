@@ -1,4 +1,4 @@
-using EFBatch;
+using EFBatch.API;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

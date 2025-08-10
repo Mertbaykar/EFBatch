@@ -1,5 +1,5 @@
 ﻿
-namespace EFBatch
+namespace EFBatch.API
 {
     public class Category
     {

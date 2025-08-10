@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace EFBatch.Migrations
+namespace EFBatch.API
 {
     [DbContext(typeof(ECommerceContext))]
     [Migration("20250628184420_Init")]

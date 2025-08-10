@@ -1,7 +1,6 @@
 ﻿
-using Microsoft.EntityFrameworkCore;
 
-namespace EFBatch
+namespace EFBatch.API
 {
     public class ProductRepository : IProductRepository
     {
